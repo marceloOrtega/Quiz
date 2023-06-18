@@ -1,4 +1,4 @@
-# Projeto QUIZ
+# Projeto QUIZ MATEMÁTICA
 
 ## Para executar o projeto de exemplo e testar
 - Clonar este repositório
