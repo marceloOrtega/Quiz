@@ -1,6 +1,6 @@
 # Projeto QUIZ MATEMÁTICA
 
-## Para executar o projeto de exemplo e testar
+## Para executar o Quiz
 - Clonar este repositório
 - Abrir com VsCode
 - Abrir um terminal "cmd" ou "bash"
