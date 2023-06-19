@@ -40,6 +40,7 @@ export default function MainScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: {
+    opacity: 0.7,
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',

@@ -39,7 +39,7 @@ export default function ResultScreen({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 3,
-    backgroundImage: 'url("https://media.istockphoto.com/id/1268140975/vector/abstract-artwork-natural-beige-color.jpg?s=612x612&w=0&k=20&c=jrZ7SgqC1VhEVJMzrxyDZ-PE7U48wHuPbktQ9bj_fu4=")',
+    backgroundImage: 'url("https://cdn.wallpapersafari.com/12/38/bNACEt.jpg")',
     backgroundSize: 'cover',
     alignItems: 'center',
     justifyContent: 'center',
@@ -72,6 +72,9 @@ const styles = StyleSheet.create({
     fontSize: "2rem",
     fontWeight: 'italic',
     fontWeight: 'bold',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 5,
   },
   reiniciar: {
     fontSize: "2rem",

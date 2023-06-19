@@ -12,15 +12,15 @@ export default function PerguntasScreen({ navigation }) {
 
     if (respostaCorreta) {
       setAcertos(acertos + 1);
-      alert('Parabéns resposta correta');
+      alert('Parabéns! Resposta correta.');
     } else {
-      alert('Resposta incorreta');
+      alert('Resposta incorreta.');
     }
 
     if (perguntaAtual < perguntas.length - 1) {
       setPerguntaAtual(perguntaAtual + 1);
     } else {
-      navigation.navigate("ResultScreen", { acertos: acertos + 1 });
+      navigation.navigate("ResultScreen", { acertos: acertos }); // Passa o valor atual de acertos
     }
   };
 
@@ -53,7 +53,7 @@ export default function PerguntasScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundImage: 'url("https://media.istockphoto.com/id/1268140975/vector/abstract-artwork-natural-beige-color.jpg?s=612x612&w=0&k=20&c=jrZ7SgqC1VhEVJMzrxyDZ-PE7U48wHuPbktQ9bj_fu4=")',
+    backgroundImage: 'url("https://i.pinimg.com/originals/17/98/99/1798991b6c04db0156998215aa4c73de.jpg")',
     backgroundSize: 'cover',
     alignItems: 'center',
     justifyContent: 'center',
